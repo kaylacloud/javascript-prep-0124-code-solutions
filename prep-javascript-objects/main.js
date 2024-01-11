@@ -1,0 +1,11 @@
+const person= {firstName: 'Kayla', lastName: 'Cloud', hobby:'playing guitar'};
+console.log (person);
+const fullName= 'Kayla'+ ' Cloud';
+console.log ("The person's name is : "+ fullName + '.');
+const job= 'server';
+person.job= 'server';
+console.log("The person's current job is: " + job + '.');
+const previousJob='nanny';
+person.previousJob='nanny';
+console.log("The person's previous job is: " + previousJob + "." );
+console.log(person);
