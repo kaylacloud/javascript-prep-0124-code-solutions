@@ -5,7 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What are the five parts of a function definition?
-
+five parts include the function keyword to begin cresation of a new function, an optional name , comma-serperated list of zero or more parameters surrounded by paranthesis, start of functions code block starting with open curly brackets, optional return statement, and end of codeblock with curly closed bracket.
 
 - How do you call a function?
 To call a function you must type The function's name. Then a comma-separated list of zero or more arguments surrounded by () parentheses.
