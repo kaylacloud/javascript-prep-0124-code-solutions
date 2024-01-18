@@ -70,9 +70,9 @@ console.log('for in loop 1 output', forInLoop1(object));
 function forInLoop2(object) {
   const newArray5 = [];
   for (const key in object) {
-    newArray5.push(key);
+    newArray5.push(object[key]);
   }
   return newArray5;
 }
 
-console.log('for in Loop 2 output', Object.values(object));
+console.log('for in Loop 2 output', forInLoop2(object));
